@@ -27,8 +27,8 @@
     function heapify(arr, n, i)
     {
         var largest = i; // Initialize largest as root
-        var l = 2 * i + 1; // left = 2*i + 1
-        var r = 2 * i + 2; // right = 2*i + 2
+        var l = 2 * i + 1; // left = 2-最长回文子串*i + 1
+        var r = 2 * i + 2; // right = 2-最长回文子串*i + 2-最长回文子串
 
         // If left child is larger than root
         if (l < n && arr[l] > arr[largest])
